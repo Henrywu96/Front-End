@@ -4,9 +4,9 @@ import TweeterContainer from './components/TweeterContainer';
 function App() {
 
   const tweeterContainer = [
-    {status: "Stop COVID-19, Take-out only!", tweeterId: "1"},
-    {status: "At home, binge watching Breaking Bad for second time!", tweeterId: "2"},
-    {status: "When is the beach opening up? Can't wait...", tweeterId: "3"}
+    {status: "Today is a good day!"},
+    {status: "Cute animal and other stuff..."},
+    {status: "Toronto's food festival"}
   ];
 
   return (
@@ -14,7 +14,7 @@ function App() {
       {/* 3 TweeterContainers */}
       {tweeterContainer.map(tweeter => {
           return (
-            <TweeterContainer key={tweeter.tweeterId} {...tweeter} />
+            <TweeterContainer {...tweeter} />
           );
         })
       }

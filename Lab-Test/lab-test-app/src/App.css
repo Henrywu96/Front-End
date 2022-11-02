@@ -9,18 +9,15 @@ h3 {
   margin: 10px 0 10px 0;
 }
 
-.form-class, .form-class {
+.form-class {
   display: flex;
   justify-content: center;
+  margin-bottom: 5px;
 }
 
 .div-class {
   border: 1px solid black;
   margin-top: 10px;
-}
-
-.form-class {
-  margin-bottom: 5px;
 }
 
 .input-class {
