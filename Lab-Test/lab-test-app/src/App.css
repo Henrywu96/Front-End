@@ -1,0 +1,56 @@
+body {
+  width: 90%;
+  margin: auto;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 10px 0;
+}
+
+.form-class, .form-class {
+  display: flex;
+  justify-content: center;
+}
+
+.div-class {
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+.form-class {
+  margin-bottom: 5px;
+}
+
+.input-class {
+  align-items: center;
+  margin-top: 10px;
+}
+
+.btn {
+  margin-left: 10px;
+  outline: none;
+}
+
+.like-button {
+  margin-left: 10px;
+  margin-right: 5px;
+  background-color: rgb(243, 82, 82);
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.like-button:hover {
+  background-color: rgb(231, 49, 49);
+  cursor: pointer;
+}
+
+.like-button:focus {
+  outline: 0 !important;
+}
+
+time {
+  margin-right: 5px;
+}
