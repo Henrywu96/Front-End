@@ -2,20 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Greeter from './Greeter';
+import Greeter from './components/Greeter';
 import reportWebVitals from './reportWebVitals';
-import LikeButton from './LikeButton';
-import Display from './Display';
+import LikeButton from './components/LikeButton';
+import Display from './components/Display';
+import Counter from './components/Counter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <React.Fragment>
-      <Greeter />
-      <LikeButton />
+    <>
       <Display />
-    </React.Fragment>
-  </React.StrictMode>
+      <Counter />
+    </>
 );
 
 // If you want to start measuring performance in your app, pass a function
