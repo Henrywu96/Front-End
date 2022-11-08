@@ -1,4 +1,4 @@
-# Group Project. Member of Team: Min-Tzu Wu(101453248) and Harshdeep Bedis(101442299)
+# Group Project. Member of Team: Min-Tzu Wu(101453248) and Harshdeep Bedi(101442299)
 
 # Getting Started with Create React App
 
